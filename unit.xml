@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0300" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-05-12T01:51:36" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="http_server_intermediate" timestamp="2021-05-12T01:51:36" tests="7" file="/home/xiao/Documentos/workspace/javascript-rest-api/test/index.spec.js" time="0.0300" failures="0">
+    <testcase name="http_server_intermediate Should return 404 for an invalid route" time="0.0150" classname="Should return 404 for an invalid route">
+    </testcase>
+    <testcase name="http_server_intermediate Should return a 400 if the project id sent in body already exists" time="0.0030" classname="Should return a 400 if the project id sent in body already exists">
+    </testcase>
+    <testcase name="http_server_intermediate Should return a 400 if post data is not a valid JSON" time="0.0020" classname="Should return a 400 if post data is not a valid JSON">
+    </testcase>
+    <testcase name="http_server_intermediate Should respond with the correct data for GET /projects" time="0.0020" classname="Should respond with the correct data for GET /projects">
+    </testcase>
+    <testcase name="http_server_intermediate Should update and send the updated data after a valid POST /projects request" time="0.0040" classname="Should update and send the updated data after a valid POST /projects request">
+    </testcase>
+    <testcase name="http_server_intermediate Should respond with the correct data for GET /projects after a valid POST /projects" time="0.0030" classname="Should respond with the correct data for GET /projects after a valid POST /projects">
+    </testcase>
+    <testcase name="http_server_intermediate Should respond with a 404 for an invalid Projects route" time="0.0010" classname="Should respond with a 404 for an invalid Projects route">
+    </testcase>
+  </testsuite>
+</testsuites>
